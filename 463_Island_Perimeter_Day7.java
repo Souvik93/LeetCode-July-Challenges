@@ -47,7 +47,5 @@ class Solution {
         
         return 4*land - 2*border;
         
-       
-        
     }
 }
