@@ -23,6 +23,8 @@ Would allow duplicates affect the run-time complexity? How and why?
 
 */
 
+// Expalanation - https://youtu.be/uXH0d7p4Y8k
+
 class Solution {
     public int findMin(int[] nums) {
         
