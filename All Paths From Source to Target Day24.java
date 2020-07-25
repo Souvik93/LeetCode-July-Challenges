@@ -20,6 +20,9 @@ You can print different paths in any order, but you should keep the order of nod
 
 */\
 
+
+// Explanation - https://youtu.be/TABvtZB0Gto 
+
 class Solution {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         
@@ -50,7 +53,8 @@ class Solution {
         for(int n: graph[index]) {
             path.add(n);
             dfs(graph,path,r,n);
-            path.remove(path.size()-1); 
+            path.remove(path.size()-1); // To back track to previous node.
+
         }
         
         
